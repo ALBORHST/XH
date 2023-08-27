@@ -861,7 +861,7 @@ def passwrd():
 				pool.submit(crackmbasic,idf,pwv)
 pool.submit(crackmbasic,idf,pwv)
 	
-	cetak(nel('\t[cyan]✓[green] Crack Selesai[cyan] ✓[white] '))
+	
 	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
 	
