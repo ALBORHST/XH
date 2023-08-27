@@ -859,7 +859,6 @@ def passwrd():
 				pool.submit(cracktouch,idf,pwv)
 			elif 'mbasic' in method:
 				pool.submit(crackmbasic,idf,pwv)
-        else:
 pool.submit(crackmbasic,idf,pwv)
 	print('')
 	cetak(nel('\t[cyan]✓[green] Crack Selesai[cyan] ✓[white] '))
