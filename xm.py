@@ -860,11 +860,11 @@ def passwrd():
 			elif 'mbasic' in method:
 				pool.submit(crackmbasic,idf,pwv)
 pool.submit(crackmbasic,idf,pwv)
-	print('')
+	
 	cetak(nel('\t[cyan]✓[green] Crack Selesai[cyan] ✓[white] '))
 	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
-	print('')
+	
 	print('>> Lanjut Crack Kembali ( Y/t ) ? ')
 	woi = input('>> Pilih : ')
 	if woi in ['y','Y']:
